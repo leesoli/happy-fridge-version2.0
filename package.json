@@ -1,0 +1,46 @@
+{
+  "name": "happy-fridge",
+  "version": "2.0.0",
+  "description": "This product offers a solution to reducing food waste and the environmental impact we make by offering a variety of recipes options based on the ingredients you have stocked in your home.",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack --config webpack.config.js -w",
+    "start": "nodemon server/index.js -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leesoli/happy-fridge-version2.0.git"
+  },
+  "author": "Soli Anna Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlthfl87/fridge-recipes/issues"
+  },
+  "homepage": "https://github.com/dlthfl87/fridge-recipes#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.4.7",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.4.0",
+    "react-icons": "^4.4.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-router-dom": "^6.3.0",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "react-dom": "^17.0.2"
+  }
+}
